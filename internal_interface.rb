@@ -1,5 +1,4 @@
 module InternalInterface
-
   attr_reader :current_player, :current_dealer, :current_deck, :player_score, :dealer_score
 
   def first_turn
@@ -101,5 +100,4 @@ module InternalInterface
     @current_dealer.discard
     @current_deck.refresh_deck
   end
-
 end
